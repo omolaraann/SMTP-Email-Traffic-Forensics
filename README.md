@@ -87,7 +87,34 @@ SMTP-Email-Traffic-Forensics/
 │   └── Additional analysis outputs
 │
 ├── 📁 screenshots/
-│   └── Numbered screenshots supporting the analysis
+│   ├── 01_lab_preparation_and_verification.png
+│   ├── 02_tool_verification.png
+│   ├── 03_packet_capture_download.png
+│   ├── 04_creation_of_working_copy.png
+│   ├── 05_sha256_integrity_verification.png
+│   ├── 06_capture_file_characteristics.png
+│   ├── 07_capture_metadata_recorded.png
+│   ├── 08_working_pcap_in_wireshark.png
+│   ├── 09_smtp_traffic_filter.png
+│   ├── 10_tcp_conversation_inventory.png
+│   ├── 11_smtp_command_and_response_inventory.png
+│   ├── 12_smtp_authentication_base64_credentials.png
+│   ├── 13_offline_base64_decoding.png
+│   ├── 14_python_verification.png
+│   ├── 15_identification_of_tcp_stream_0.png
+│   ├── 16_tshark_stream_packet_extraction.png
+│   ├── 17_smtp_message_data_reassembly_fields.png
+│   ├── 18_tcp_payload_segmentation.png
+│   ├── 19_reconstructed_smtp_conversation_email_content.png
+│   ├── 20_smtp_client_server_network_metadata.png
+│   ├── 21_tls_packet_verification.png
+│   ├── 22_starttls_authentication_verification.png
+│   ├── 23_email_content_extracted.png
+│   ├── 24_multipart_evidence.png
+│   ├── 25_smtp_advertisement.png
+│   ├── 26_tshark_verification.png
+│   ├── 27_wireshark_verification.png
+│   └── 28_capture_hash_capinfos.png
 │
 ├── 📁 scripts/
 │   └── Supporting analysis scripts
